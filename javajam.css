@@ -1,0 +1,42 @@
+* { box-sizing: border-box; }
+body {  background-color: #ece7c6; color: #221811; font-family: Verdana,
+		Arial, "sans-serif";
+}   
+header { background-color: #d2928c; height: 150px; text-align: center;
+		 background-image: url(burger.jpg); background-repeat: no-repeat;
+ }
+h1 { padding-top: 45px; padding-left: 220px; font-size: 3em }
+nav {text-align: center; font-weight: bold;
+	 font-size: 1.5em; padding-top: 10px;
+	 float: left; width: 200px;	
+ }
+nav a { text-decoration: none; }
+nav a:link { color: #FEF6C2; }
+nav a:visited { color: #d2928c; }
+nav a:hover { color: #b02013; }
+nav ul { list-style-type: none; padding-left: 0; }
+main {  padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 10px;
+		margin-left: 200px; background-color: #ece7c6; 
+		overflow: auto;
+}
+main h2 { padding-left: 3em; padding-right: 2em; }
+main h3 { padding-left: 3em; padding-right: 2em; }
+main p { padding-left: 3em; padding-right: 2em; }
+main div { padding-left: 3em; padding-right: 2em; }
+table { margin: auto; width: 90%; border-spacing: 0; }
+td, th { padding: 10px; }
+tr:nth-of-type(odd) { background-color: #d2928c; }
+form { padding: 2em; }
+label { float: left; display: block; 
+		text-align: right; width: 8em; padding-right: 1em;
+}
+input, textarea { display: block; margin-bottom: 1em; }
+#mySubmit { margin-left: 9.5em; }
+#wrapper {  width: 80%; margin-right: auto; margin-left: auto; 
+			background-color: #705451; min-width: 900px; max-width: 1280px;
+			box-shadow: 5px 5px 5px #E2C49C;
+}
+
+#burgerGIF { margin-left: 200px; margin-right: auto; width: 80%;}
+#summaryTable { width: 50%;}
+#items h2 {text-align: center; }

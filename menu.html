@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Chicago Burgers</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+<link href="javajam.css" rel="stylesheet">
+<script src="menu.js" defer></script>
+</head>
+<body>
+<div id="wrapper">
+
+<header>
+	<h1>Chicago Burgers</h1>
+</header>
+
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="menu.html">Order</a></li>
+	</ul>
+</nav>
+
+<main>
+	<h2>Select the items to add to order</h2>
+    <form id="orderForm" method="get" action="orderSummary.html">
+        <table id="table">
+            <tr>
+                <th><strong>Cheeseburger</strong></th>
+                <td>Our famous burger with cheese, onions, tomato, and lettuce. Side of 
+                    fries included.<br>$4.00 ea. <br>
+                    <label for="cheeseburger">Qty</label>
+                    <select name="cheeseburger" id="cheeseburger">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th><strong>Double Cheeseburger</strong></th>
+                <td>Our famous burger with double the meat and the same ingredients. 
+                    Side of fries. <br> $5.00<br> 
+                    <label for="dbcheeseburger">Qty</label>
+                    <select name="dbcheeseburger" id="dbheeseburger">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th><strong>Chicken Tenders</strong></th>
+                <td>Six crispy chicken tenders. Side of Fries.<br> $5.00<br>
+                    <label for="chTender">Qty</label>
+                 <select name="chTender" id="chTender">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <th><strong>Kid's Meal</strong></th>
+                <td>One mini Cheeseburger and a side of sliced apples.<br> $4.00<br>
+                    <label for="kMeal">Qty</label>
+                    <select name="kMeal" id="kMeal">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select></td>
+                </td>
+            </tr>
+            <tr>
+                <td>TOTAL</td>
+                <td>
+                    <input type="text" id="total" size="8" required>
+                </td>
+            </tr>
+        </table>
+        <input type="button" id="submitButton" value="Place Order">
+    </form>
+</main>
+
+</div>
+</body>
+</html>
